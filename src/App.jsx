@@ -11,7 +11,7 @@ function App() {
       <nav>
         <ul>
           <li>
-            <Link className="kalvium" to="/home">KALVIUM❤️</Link>
+            <Link className="kalvium" to="/">KALVIUM❤️</Link>
           </li>
           <div>
             <li>
@@ -24,7 +24,7 @@ function App() {
         </ul>
       </nav>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
