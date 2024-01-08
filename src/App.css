@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+ul {
+  display: flex;
+  padding: 2% 0% 2% 4%;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background-color: black;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+ul div {
+  display: flex;
+  margin-right: 10%;
+  gap: 55%;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.kalvium{
+  font-size: 2em;
+}
