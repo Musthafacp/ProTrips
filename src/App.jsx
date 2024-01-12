@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Link, Route } from "react-router-dom";
-import About from "./Component/About";
+import Form from "./Component/Form";
 import Contact from "./Component/Contact";
 import Home from "./Component/Home";
 import "./App.css";
@@ -15,7 +15,7 @@ function App() {
           </li>
           <div>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/Form">Registration Form</Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
@@ -25,7 +25,7 @@ function App() {
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/Form" element={<Form />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
